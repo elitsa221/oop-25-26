@@ -1,0 +1,9 @@
+[BOOKS]
+Dune|FrankHerbert|PressHouse||sci-fi;adventure|9.2|1|01.08.1965|412
+[USERS]
+Author|AuthorJohn|Passw0rd123!|17.06.2026|reader001|reader001|0|0|||2|reader001|reader001 started following you.|FOLLOW|0|PressHouse|Job offer from publisher PressHouse. Use accept-offer <index> to accept.|JOB_OFFER|1||
+Author|Ivanina|ednoDve1234567|17.06.2026|||0|0|||0||
+Publisher|PressHouse|Passw0rd123!|17.06.2026|reader001||FrankHerbert|Dune|2|reader001|reader001 started following you.|FOLLOW|0|AuthorJohn|AuthorJohn accepted your job offer.|GENERAL|0
+Author|ivan67667|12345678908765aA|17.06.2026|||0|0|||0||
+Reader|reader001|Passw0rd123!|17.06.2026|AuthorJohn|AuthorJohn;PressHouse|1|Dune|reading|9.2|1|sci-fi-favs|17.06.2026|Dune||10.05.1998|0
+[END]

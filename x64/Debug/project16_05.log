@@ -1,0 +1,19 @@
+﻿  Author.cpp
+  Authorcommands.cpp
+  Basiccommands.cpp
+  Book.cpp
+  Bookdatabase.cpp
+  Commanddispatcher.cpp
+  Date.cpp
+  Fileserializer.cpp
+  Publisher.cpp
+  Publishercommands.cpp
+  Reader.cpp
+  Readercommands.cpp
+  Session.cpp
+  Shelf.cpp
+  User.cpp
+  Userregistry.cpp
+  project16_05.cpp
+  Generating Code...
+  project16_05.vcxproj -> D:\c++\project16_05\x64\Debug\project16_05.exe
