@@ -1,8 +1,8 @@
 #pragma once
-#include <map>
+
+#include <vector>
 #include <memory>
 #include <string>
-#include <vector>
 #include "User.h"
 #include "Reader.h"
 #include "Author.h"
@@ -11,7 +11,7 @@
 class UserRegistry {
 public:
     static UserRegistry& instance();
-    
+
     bool registerUser(const std::string& username, const std::string& password,
         UserType type, const Date& today);
 
@@ -25,10 +25,10 @@ public:
 
     std::vector<const User*> search(const std::string& query) const;
 
-    const std::map<std::string, std::unique_ptr<User>>& all() const { return users_; }
+    const std::vector<std::unique_ptr<User>>& all() const { return users_; }
 
 private:
     UserRegistry() = default;
-    std::map<std::string, std::unique_ptr<User>> users_;
+    std::vector<std::unique_ptr<User>> users_;
 };
 
